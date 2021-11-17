@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
