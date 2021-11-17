@@ -20,6 +20,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+Basically I created a webpage with some personal information, Banners with the applications i will develop. 
+
 3. Used semantic elements in the index file
 4. Use of a reset file to define general styles
 5. Use of media queries for a responsive design
