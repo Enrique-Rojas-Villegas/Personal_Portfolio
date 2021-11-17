@@ -28,6 +28,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 7. link to working site: https://enrique-rojas-villegas.github.io/Personal_Portfolio/#Link-to-contact
 
-8. Screenshot of site: ![The Personal Portfolio webpage includes a navigation bar, a header image, and cards with text and contact information.](./Personal_Portfolio/assets/images/Captura1.jpg) 
-![](./Personal_Portfolio/assets/images/Captura2.jpg)
+8. Screenshot of site: ![The Personal Portfolio webpage includes a navigation bar, a header image, and cards with text and contact information.](./assets/images/Captura1.jpg) 
+![](./assets/images/Captura2.jpg)
 
