@@ -1,35 +1,28 @@
-# Personal_Portfolio
+# Personal Portfolio
 
-File to understand Personal Portfolio
+This is my landing page to showcase the projects I have done by myself and with other team members. This application includes a description about me, and short description of who I am. <br />
+<br />
+It includes the tools I have learned to use, such as Languages, Databases, and other significant technologies.
+This part will be updated when a new tool is learnes, and also add the different time of experience with each technology.<br />
+<br />
+Working App: https://enrique-rojas-villegas.github.io/Personal_Portfolio/
+<br />
 
-1. No code given this week, so I had to create it from scratch
+Sections included:
 
-2. Asked to complete the following:
+1. About Me
+2. My Work
+3. Conctact Information
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Tools used in this project:
+-Tailwind CSS: for the grid and row functionality, as well as media queries.
+-Pure CSS: To style more specific elements, and not have Tailwind overrride them.
+-Each section is linkd to the navbar for easier access.
+-Each project has corresponding links to be accessed.
+-Footer has contact info, and links as well for GitHub and LinkedIN.
 
-Basically I created a webpage with some personal information, Banners with the applications i will develop. 
+Below you will find some Screenshots of the site. <br />
+<br />
+![Updated Portfolio](./assets/images/updated-portfolio.PNG)
 
-3. Used semantic elements in the index file
-4. Use of a reset file to define general styles
-5. Use of media queries for a responsive design
-6. Use of display grid to better see the applications of the webpage. 
-
-
-7. link to working site: https://enrique-rojas-villegas.github.io/Personal_Portfolio/#Link-to-contact
-
-8. Screenshot of site: ![The Personal Portfolio webpage includes a navigation bar, a header image, and cards with text and contact information.](./assets/images/Captura1.jpg) 
-![](./assets/images/Captura2.jpg)
-
+![Updated Portfolio-2](./assets/images/updated-portfolio2.PNG)
