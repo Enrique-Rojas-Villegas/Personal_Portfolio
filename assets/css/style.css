@@ -1,343 +1,123 @@
-body{
-    background-color: rgb(246, 233, 198);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
 }
 
-header{
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #00539CFF;
-    color: #FFD662FF;
-    
+html {
+  scroll-behavior: smooth;
 }
 
-header h1{
-    display: inline-block;
-    font-size: 48px;
-}
-header nav{
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+body {
+  background-color: #2b6777;
 }
 
-header nav ul{
-    list-style-type: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: #2b6777;
+  color: #f2f2f2;
+  font-size: xx-large;
+}
+ul {
+  list-style: none;
 }
 
-header nav ul li{
-    display: inline-block;
-    margin-left: 25px;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
 }
 
-a{
-    text-decoration: none;
-    color: #FFD662FF;
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
-.banner{
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/banner-top.jpg");
-    background-position: center;
+.banner {
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: top;
+  height: 120px;
 }
 
-/*ASIDE BEGINS HERE*/
-
-/*About Me begins*/
-
-.about-me{
-    padding: 45px;
-}
-.about-me img{
-    align-items: center;
-    display: inline;
-    margin: 50px auto;
-    max-width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 7px;
-    border-radius: 10px;
-    border-color: #00539CFF;
+h2 {
+  padding-left: 40px;
+  margin-bottom: 50px;
 }
 
-.about-me h2{
-    padding: 10px;
-    font-size: 40px;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-color: #00539CFF;
-    border-width: 4px;
-    display: inline;
+.welcome-text {
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #f2f2f2;
 }
 
-p{
-    font-size: 25px;
-    padding: 30px;
-    text-align: justify;
+.projects {
+  margin-left: 50px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid #f2f2f2;
 }
 
-/*About Me ends*/
-
-/*My work begins*/
-
-.my-work{
-    padding: 45px;
+.projects2 {
+  width: 98%;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid #f2f2f2;
 }
 
-.my-work h2{
-    padding: 10px;
-    font-size: 40px;
-    border-right-style: solid;
-    border-left-style:solid;
-    border-color: #00539CFF;
-    border-width: 4px;
-    display: inline;
+.moviez {
+  width: 95%;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
 }
 
-/*My work ends*/
-
-/*SECTION BEGINS HERE*/
-.bigcontainer{
-    width: 100%;
-    max-width: 1200px;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0px auto;
+.my-work,
+.about-me {
+  border-right: 0.3rem solid #f2f2f2;
+  font-size: 45px;
+  color: #f2f2f2;
 }
 
-
-.bigcard{
-    border-radius: 10px;
-    min-height: 400px;
-    font-weight: bold;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
+.readme {
+  width: 87%;
 }
 
-.bigcard:hover{
-    -webkit-filter: brightness(70%);
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  margin-top: 35px;
+  font-size: x-large;
 }
 
-.card:hover{
-    -webkit-filter: brightness(70%);
+.end-of-document {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin-left: 150px;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0px auto;
+footer ul {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.app-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+.email {
+  padding-right: 30px;
 }
 
-
-.card{
-    border-radius: 10px;
-    min-height: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
+.me {
+  padding-left: 30px;
 }
 
-.card .text{
-    height: 300px;
-    color: white;
-    display: grid;
-    grid-template-rows: 1fr auto;
-}
-/*SECTION ENDS HERE*/
-
-/*Footer begins here*/
-
-footer{
-    background-color: #00539CFF;
-    padding: 50px;
-    margin: 20px 0px 0px 0px;
-}
-
-footer h3{
-    font-size: 50px;
-    display: inline-block;
-    color: #FFD662FF;
-}
-
-footer p{
-    display: inline-block;
-    text-align: center;
-    margin-left: 50px;
-    color: #FFD662FF;
-}
-
-/*Footer ends here*/
-
-/*Media Queries*/
-@media screen and (max-width:900px){
-    nav{
-        width: 100%;
-        text-align: center;
-    }
-    header{
-        width: 100%;
-        height: 120px;
-        text-align: center;
-    }
-
-    header h1{
-        font-size: 34px;
-    }
-
-    header nav{
-        font-size: 15px;
-    }
-
-    .about-me h2{
-        font-size: 30px;
-    }
-
-    .my-work h2{
-        font-size: 30px;
-    }
-
-    .bigcard{
-        margin: 20px;
-    }
-
-    .container{
-        margin:0px 20px 20px 93px;
-        width: 80%;
-    }
-
-    footer h3{
-        text-align: center;
-        display: block;
-    }
-
-    footer p{
-        text-align: center;
-        display: block;
-    }
-}
-
-@media screen and (max-width:600px){
-    nav{
-        width: 100%;
-        text-align: center;
-    }
-    header{
-        width: 100%;
-        height: 120px;
-        text-align: center;
-    }
-
-    header h1{
-        font-size: 34px;
-    }
-
-    header nav{
-        font-size: 15px;
-    }
-
-    .about-me h2{
-        font-size: 25px;
-        display: block;
-        text-align: center;
-    }
-
-    .my-work h2{
-        font-size: 25px;
-        display: block;
-        text-align: center;
-    }
-
-    .bigcard{
-        margin: 20px;
-    }
-
-    .container{
-        margin:0 auto;
-        width: 75%;
-    }
-
-    footer h3{
-        text-align: center;
-        display: block;
-    }
-
-    footer p{
-        text-align: center;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    nav{
-        width: 100%;
-        text-align: center;
-    }
-    header{
-        width: 100%;
-        height: 120px;
-        text-align: center;
-    }
-
-    header h1{
-        font-size: 34px;
-    }
-
-    header nav{
-        font-size: 15px;
-    }
-
-    .about-me h2{
-        font-size: 25px;
-        display: block;
-        text-align: center;
-    }
-
-    .my-work h2{
-        font-size: 25px;
-        display: block;
-        text-align: center;
-    }
-
-    .bigcard{
-        margin: 20px;
-    }
-
-    .card{
-        display: block;
-        width: 100%;
-    }
-
-    footer h3{
-        text-align: center;
-        display: block;
-    }
-
-    footer p{
-        text-align: center;
-        display: block;
-    }
-    
+.languages {
+  font-weight: bold;
+  font-size: 25px;
 }

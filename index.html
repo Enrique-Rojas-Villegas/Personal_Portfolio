@@ -1,84 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type = text/css href="assets/css/reset.css">
-    <link rel="stylesheet" type = text/css href="assets/css/style.css">
-    <title>Job Portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Enoc Rojas Villegas</h1>
-        <nav>
-            <ul>
-                <li><a href="#Link-about-me">About ME</a></li> 
-                <li><a href="#Link-to-work">My Work</a></li> 
-                <li><a href="#Link-to-contact">Contact</a></li> 
-            </ul>
-        </nav>
+      <h1>Enoc Rojas Villegas</h1>
+      <nav>
+        <ul>
+          <li><a href="#About-Me">About Me</a></li>
+          <li><a href="#My-Work">My Work</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-<main>
-    <div class="banner"></div>
-    <section class="about-me">
-        <h2 id="Link-about-me">About Me</h2><br>
-        <p>I´m glad you can read this paragraph to know more about myself.
-            I´m from the lovely country of Mexico, born in 1998. 
-            I currently study at CETI and TEC de Monterrey, everything related to 
-            engineering. I have developed a powerful interest in technology, and especially
-            in programming! I consider myself a person that will thrive and persevere to become better
-            every single day. Below you will find more about what I have done, especifically
-            about my job qualifications. 
-        </p>
-        <img src="./assets/images/EnocRojas.jpeg" alt="Personal Picture">
-    </section>
-    <section class="my-work">
-        <h2 id="Link-to-work">My Work</h2>
-        <p>Below are the projects I have developed over the last 6 months.</p>
-    </section>
-    <section class="bigcontainer">
-        <div class="bigcard" style="background-image: url(./assets/images/agenda.jpg);">
-            <div class="text">
-                <h3>Agenda/Planner</h3>
-                <p>Released: 2022</p>
+
+    <img
+      class="banner"
+      src="./assets/images/banner-top.jpg"
+      width="100%"
+      alt="personal banner"
+    />
+    <main>
+      <div class="container mx-auto flex">
+        <div class="grid grid-cols-4 gap-y-6 gap-x-4">
+          <h2 class="row-span-3 about-me" id="About-Me">About Me</h2>
+          <p class="welcome-text col-span-3" align="justify">
+            I am a Mechatronics Engineer Grad student at C.E.T.I and currently
+            studying to become a Full-Stack Developer at Tecnologico de
+            Monterrey. In this last 2 years of being home because of the
+            pandemic, I found out that I truly love coding, and it is something
+            I want to do full time. I enjoy sitting down and figuring out how to
+            solve problems, and apply code to resolve those issues. During my
+            Bachelor's in Mechatronics I got to experience languages such as: C,
+            C++, Java, Python and applying concepts of OOP. Now studying to
+            become A FullStack Developer I am able to work with the folowing
+            technologies.
+          </p>
+          <p class="welcome-text col-span-3" align="justify">
+            <span class="languages">Languages:</span> JavaScript, HTML, CSS.
+            <br />
+            <span class="languages">Databases:</span> MySQL <br />
+            <span class="languages">Frameworks:</span> Node.JS, TailwindCSS,
+            BootStrap. Tools: Git, Heroku.
+          </p>
+          <p class="welcome-text col-span-3" align="justify">
+            I consider myself a person that will thrive and persevere to become
+            better every single day. Below you will find more about what I have
+            done, especifically about my job qualifications. You will also find
+            a link to the repository, and clicking the image will take you to
+            the working App Site.
+          </p>
+          <h2 class="row-span-2 my-work" id="My-Work">My Work</h2>
+          <!-- First picture of the MOVIEZ project -->
+          <div class="relative col-span-3">
+            <a
+              href="https://enrique-rojas-villegas.github.io/Movie-Search_Engine/"
+              target="_blank"
+            >
+              <img
+                class="projects moviez"
+                src="./assets/images/moviez.PNG"
+                alt="movie database project"
+                width="97%"
+                url
+              />
+            </a>
+            <div class="absolute bottom-0 right-6 h-14 w-25">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                <a
+                  href="https://github.com/Enrique-Rojas-Villegas/Movie-Search_Engine.git"
+                  target="_blank"
+                  >Repository</a
+                >
+              </button>
             </div>
+          </div>
+          <!-- Second picture, ReadMe generator -->
+          <div class="relative col-span-1">
+            <a
+              href="https://watch.screencastify.com/v/PI2MKJ7bzDw7sUr9lydz"
+              target="_blank"
+            >
+              <img
+                class="projects readme"
+                src="./assets/images/readme-generator.PNG"
+                alt="readme Generator"
+              />
+            </a>
+            <div class="absolute bottom-0 right-3 h-14 w-25">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                <a
+                  href="https://github.com/Enrique-Rojas-Villegas/README-Generator.git"
+                  target="_blank"
+                  >Repository</a
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Scheduler App picture starts here -->
+          <div class="relative col-span-1">
+            <a
+              href="https://enrique-rojas-villegas.github.io/Day-Scheduler/"
+              target="_blank"
+            >
+              <img
+                class="projects2"
+                src="./assets/images/scheduler.PNG"
+                alt="Day Scheduler"
+              />
+            </a>
+            <div class="absolute bottom-0 right-3 h-14 w-25">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                <a
+                  href="https://github.com/Enrique-Rojas-Villegas/Day-Scheduler.git"
+                  target="_blank"
+                  >Repository</a
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Password Generator starts here -->
+          <div class="relative col-span-1">
+            <a
+              href="https://enrique-rojas-villegas.github.io/Password-Generator/"
+              target="_blank"
+            >
+              <img
+                class="projects2"
+                src="./assets/images/password-generator.PNG"
+                alt="Password"
+              />
+            </a>
+            <div class="absolute bottom-0 right-3 h-14 w-25">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                <a
+                  href="https://github.com/Enrique-Rojas-Villegas/Password-Generator.git"
+                  target="_blank"
+                  >Repository</a
+                >
+              </button>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="container">
-        <div class="app-container">
-            <div class="card" style="background-image: url(./assets/images/note-taker.jpg);">
-                <div class="text">
-                    <h3>Note Taker</h3>
-                    <p>Released: 2022</p>
-                </div>
-            </div>
-            <div class="card" style="background-image: url(./assets/images/tech-blog.jpg);">
-                <div class="text">
-                    <h3>Tech Blog</h3>
-                    <p>Released: 2022</p>
-                </div>
-            </div>
-            <div class="card" style="background-image: url(./assets/images/weather-dashboard.jpg);">
-                <div class="text">
-                    <h3>Weather Dashboard</h3>
-                    <p>Released: 2022</p>
-                </div>
-            </div>
-            <div class="card" style="background-image: url(./assets/images/password.jpg);">
-                <div class="text">
-                    <h3>Password Generator</h3>
-                    <p>Released: 2022</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <h3 id="Link-to-contact">Contact Me</h3>
-        <p>Facebook: Enrique Rojas V.</p>
-        <p>Instagram: EnocRojas</p>
-        <p>WhatsApp: 3314485639</p>
-    </footer>
-</main>
-</body>
+      </div>
+      <!-- End of Projects... and of Pictures. -->
+
+      <!-- Footer -->
+
+      <footer>
+        <ul>
+          <li>
+            <i class="fa-solid fa-address-card fa-2x"></i>
+            <span class="me" id="Contact">Contact Me</span>
+          </li>
+          <li>
+            <a href="https://github.com/Enrique-Rojas-Villegas" target="_blank"
+              ><i class="fa-brands fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/enoc-rojas-446023216/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <span class="email">rojiyoyo@gmail.com</span>
+            <i class="fa-solid fa-envelope fa-2x"></i>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
 </html>
