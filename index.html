@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <h1>Enoc Rojas Villegas</h1>
+      <h1 class="myname"><span>Enoc Rojas Villegas</span></h1>
       <nav>
         <ul>
           <li><a href="#About-Me">About Me</a></li>
@@ -37,20 +37,25 @@
       alt="personal banner"
     />
     <main>
-      <div class="container mx-auto flex">
-        <div class="grid grid-cols-4 gap-y-6 gap-x-4">
-          <h2 class="row-span-3 about-me" id="About-Me">About Me</h2>
+      <div class="container mx-auto flex md:container mx-auto flex">
+        <div
+          class="grid grid-cols-4 gap-y-6 gap-x-4 md:grid grid-cols-4 gap-y-6"
+        >
+          <h2 class="row-span-3 text-4xl pl-8 about-me" id="About-Me">
+            About Me
+          </h2>
           <p class="welcome-text col-span-3" align="justify">
             I am a Mechatronics Engineer Grad student at C.E.T.I and currently
             studying to become a Full-Stack Developer at Tecnologico de
             Monterrey. In this last 2 years of being home because of the
             pandemic, I found out that I truly love coding, and it is something
             I want to do full time. I enjoy sitting down and figuring out how to
-            solve problems, and apply code to resolve those issues. During my
-            Bachelor's in Mechatronics I got to experience languages such as: C,
-            C++, Java, Python and applying concepts of OOP. Now studying to
-            become A FullStack Developer I am able to work with the folowing
-            technologies.
+            solve problems, and apply code to resolve those issues. <br />
+            <br />
+            During my Bachelor's in Mechatronics I got to experience languages
+            such as: C, C++, Java, Python and applying concepts of OOP. Now
+            studying to become A FullStack Developer I am able to work with the
+            folowing technologies.
           </p>
           <p class="welcome-text col-span-3" align="justify">
             <span class="languages">Languages:</span> JavaScript, HTML, CSS.
@@ -67,7 +72,7 @@
             a link to the repository, and clicking the image will take you to
             the working App Site.
           </p>
-          <h2 class="row-span-2 my-work" id="My-Work">My Work</h2>
+          <h2 class="row-span-2 text-4xl pl-8 my-work" id="My-Work">My Work</h2>
           <!-- First picture of the MOVIEZ project -->
           <div class="relative col-span-3">
             <a
@@ -82,7 +87,9 @@
                 url
               />
             </a>
-            <div class="absolute bottom-0 right-6 h-14 w-25">
+            <div
+              class="sm:absolute sm:bottom-0 sm:right-9 sm:h-14 sm:w-30 md:absolute md:bottom-0 md:right-9 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-12 xl:h-14 xl:w-32 2xl:absolute 2xl:bottom-0 2xl:right-16 2xl:h-14 2xl:w-32"
+            >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
               >
@@ -106,7 +113,9 @@
                 alt="readme Generator"
               />
             </a>
-            <div class="absolute bottom-0 right-3 h-14 w-25">
+            <div
+              class="sm:absolute sm:bottom-0 sm:right-0.5 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-4 md:h-14 md:w-25 xl:absolute xl:bottom-0 xl:right-4 xl:h-14 xl:w-32 2xl:right-7"
+            >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
               >
@@ -130,7 +139,9 @@
                 alt="Day Scheduler"
               />
             </a>
-            <div class="absolute bottom-0 right-3 h-14 w-25">
+            <div
+              class="sm:absolute sm:bottom-0 sm:right-7 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
+            >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
               >
@@ -154,7 +165,9 @@
                 alt="Password"
               />
             </a>
-            <div class="absolute bottom-0 right-3 h-14 w-25">
+            <div
+              class="sm:absolute sm:bottom-0 sm:right-7 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
+            >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
               >
