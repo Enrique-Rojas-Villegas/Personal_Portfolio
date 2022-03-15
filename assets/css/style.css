@@ -113,6 +113,20 @@ footer ul {
   font-size: 25px;
 }
 
+/*.hover-opacity {
+  background: red;
+}*/
+
+.hover-opacity {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hover-opacity:hover {
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 400px) {
   footer {
     background-color: #f2f2f2;
