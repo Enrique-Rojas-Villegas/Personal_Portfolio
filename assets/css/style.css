@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  padding-left: 30px;
+}
+
 body {
   background-color: #2b6777;
 }
@@ -57,7 +61,7 @@ h2 {
 }
 
 .projects {
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   height: 150px;
   object-fit: cover;
   object-position: top;
@@ -65,7 +69,6 @@ h2 {
 }
 
 .projects2 {
-  width: 98%;
   height: 150px;
   object-fit: cover;
   object-position: top;
@@ -73,7 +76,6 @@ h2 {
 }
 
 .moviez {
-  width: 95%;
   height: 150px;
   object-fit: cover;
   object-position: top;
@@ -81,13 +83,9 @@ h2 {
 
 .my-work,
 .about-me {
-  border-right: 0.2rem solid #f2f2f2;
+  /*border-right: 0.2rem solid #f2f2f2;*/
   /*font-size: 45px;*/
   color: #f2f2f2;
-}
-
-.readme {
-  width: 87%;
 }
 
 footer {
@@ -115,17 +113,15 @@ footer ul {
   font-size: 25px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
   footer {
     background-color: #f2f2f2;
-    padding: 25px;
+    padding: 15px;
     margin-top: 35px;
-    font-size: 15px;
-    width: 100%;
+    font-size: 8px;
   }
 
   .moviez {
-    width: 89%;
     height: 150px;
     object-fit: cover;
     object-position: top;
@@ -144,14 +140,56 @@ footer ul {
   nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 330px;
+    min-width: 230px;
+  }
+
+  .welcome-text {
+    /*padding-left: 50px;
+    padding-right: 40px;
+    margin-bottom: 50px;*/
+    font-size: 20px;
+    color: #f2f2f2;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin-top: 35px;
+    font-size: 15px;
+  }
+
+  .moviez {
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #2b6777;
+    color: #f2f2f2;
+    font-size: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 530px;
   }
 }
 
 @media screen and (min-width: 640px) {
   /* Apply some styles */
   .moviez {
-    width: 89%;
     height: 150px;
     object-fit: cover;
     object-position: top;
@@ -162,7 +200,6 @@ footer ul {
   }
 
   .projects2 {
-    width: 82%;
     height: 150px;
     object-fit: cover;
     object-position: top;
@@ -195,7 +232,6 @@ footer ul {
 
 @media screen and (min-width: 768px) {
   .moviez {
-    width: 89%;
     height: 150px;
     object-fit: cover;
     object-position: top;
@@ -204,7 +240,6 @@ footer ul {
 
 @media screen and (min-width: 1024px) {
   .moviez {
-    width: 92%;
     height: 150px;
     object-fit: cover;
     object-position: top;

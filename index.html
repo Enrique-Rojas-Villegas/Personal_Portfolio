@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -41,10 +41,8 @@
         <div
           class="grid grid-cols-4 gap-y-6 gap-x-4 md:grid grid-cols-4 gap-y-6"
         >
-          <h2 class="row-span-3 text-4xl pl-8 about-me" id="About-Me">
-            About Me
-          </h2>
-          <p class="welcome-text col-span-3" align="justify">
+          <h2 class="col-span-4 text-4xl about-me" id="About-Me">About Me</h2>
+          <p class="welcome-text col-span-4" align="justify">
             I am a Mechatronics Engineer Grad student at C.E.T.I and currently
             studying to become a Full-Stack Developer at Tecnologico de
             Monterrey. In this last 2 years of being home because of the
@@ -57,7 +55,7 @@
             studying to become A FullStack Developer I am able to work with the
             folowing technologies.
           </p>
-          <p class="welcome-text col-span-3" align="justify">
+          <p class="welcome-text col-span-4" align="justify">
             <span class="languages">Languages:</span> JavaScript, HTML, CSS.
             <br />
             <span class="languages">Databases:</span> MySQL <br />
@@ -65,16 +63,16 @@
             BootStrap.<br />
             <span class="languages">Tools:</span> Git, Heroku.
           </p>
-          <p class="welcome-text col-span-3" align="justify">
+          <p class="welcome-text col-span-4" align="justify">
             I consider myself a person that will thrive and persevere to become
             better every single day. Below you will find more about what I have
             done, especifically about my job qualifications. You will also find
             a link to the repository, and clicking the image will take you to
             the working App Site.
           </p>
-          <h2 class="row-span-2 text-4xl pl-8 my-work" id="My-Work">My Work</h2>
+          <h2 class="col-span-4 text-4xl my-work" id="My-Work">My Work</h2>
           <!-- First picture of the MOVIEZ project -->
-          <div class="relative col-span-3">
+          <div class="relative col-span-4 pl-4">
             <a
               href="https://enrique-rojas-villegas.github.io/Movie-Search_Engine/"
               target="_blank"
@@ -83,12 +81,10 @@
                 class="projects moviez"
                 src="./assets/images/moviez.PNG"
                 alt="movie database project"
-                width="97%"
-                url
               />
             </a>
             <div
-              class="sm:absolute sm:bottom-0 sm:right-9 sm:h-14 sm:w-30 md:absolute md:bottom-0 md:right-9 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-12 xl:h-14 xl:w-32 2xl:absolute 2xl:bottom-0 2xl:right-16 2xl:h-14 2xl:w-32"
+              class="absolute bottom-0 right-9 h-14 w-30 md:absolute md:bottom-0 md:right-9 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-12 xl:h-14 xl:w-32 2xl:absolute 2xl:bottom-0 2xl:right-16 2xl:h-14 2xl:w-32"
             >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
@@ -102,7 +98,7 @@
             </div>
           </div>
           <!-- Second picture, ReadMe generator -->
-          <div class="relative col-span-1">
+          <div class="relative col-span-2 pl-2">
             <a
               href="https://watch.screencastify.com/v/PI2MKJ7bzDw7sUr9lydz"
               target="_blank"
@@ -114,7 +110,7 @@
               />
             </a>
             <div
-              class="sm:absolute sm:bottom-0 sm:right-0.5 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-4 md:h-14 md:w-25 xl:absolute xl:bottom-0 xl:right-4 xl:h-14 xl:w-32 2xl:right-7"
+              class="absolute bottom-0 right-3 h-14 w-25 md:absolute md:bottom-0 md:right-4 md:h-14 md:w-25 xl:absolute xl:bottom-0 xl:right-4 xl:h-14 xl:w-32 2xl:right-7"
             >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
@@ -128,7 +124,7 @@
             </div>
           </div>
           <!-- Scheduler App picture starts here -->
-          <div class="relative col-span-1">
+          <div class="relative col-span-2 pr-2">
             <a
               href="https://enrique-rojas-villegas.github.io/Day-Scheduler/"
               target="_blank"
@@ -140,7 +136,7 @@
               />
             </a>
             <div
-              class="sm:absolute sm:bottom-0 sm:right-7 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
+              class="absolute bottom-0 right-4 h-14 w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
             >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
@@ -154,7 +150,7 @@
             </div>
           </div>
           <!-- Password Generator starts here -->
-          <div class="relative col-span-1">
+          <div class="relative col-span-4 pl-2">
             <a
               href="https://enrique-rojas-villegas.github.io/Password-Generator/"
               target="_blank"
@@ -166,7 +162,7 @@
               />
             </a>
             <div
-              class="sm:absolute sm:bottom-0 sm:right-7 sm:h-14 sm:w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
+              class="absolute bottom-0 right-40 h-14 w-25 md:absolute md:bottom-0 md:right-8 md:h-14 md:w-32 xl:absolute xl:bottom-0 xl:right-14 xl:h-14 xl:w-32 2xl:right-16"
             >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
